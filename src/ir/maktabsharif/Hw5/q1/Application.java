@@ -5,5 +5,7 @@ public class Application {
     public static void main(String[] args) {
         Soldier[] soldiers = setRandomSoldiers(15);
         repeatUntilTarget(soldiers, 60);
+        System.out.println("amirali");
     }
+
 }
